@@ -4,7 +4,7 @@
 
 что бы проверить работает ли терминал,
 заходим в "терминал" далее " создать терминал" 
-и набираем git --version
+и набираем *git --version*
 если выдало строку, например,
 
 PS D:\29 09> git version
@@ -19,16 +19,16 @@ PS D:\29 09>
 
 Далее надо идентифитироваться в git:
 
-git config --global user.name "Elena Forkunova"
+*git config --global user.name "Elena Forkunova"*
 и все запоминается
 и email вводим:
 
-git config --global user.email "forkelena@yandex.ru"
+*git config --global user.email "forkelena@yandex.ru"*
 
 Как проверить мои данные, которые я ввела? 
 
 вводим:
-git config --global user.name
+*git config --global user.name*
 и выдается имя пользователя, например:
 
 PS D:\29 09> git config --global user.name                       
@@ -39,7 +39,7 @@ PS D:\29 09>
 
 Для того что бы инициализировать (СОЗДАТЬ) репозиторий, вводим:
 
-git init
+*git init*
 
 получаем:
 PS D:\29 09> git init
@@ -51,4 +51,6 @@ PS D:\29 09>
 Если нужно удалить репозиторий, то удаляем папку.
 
 #**4. ЧТО ТЫ знаешь?**
-
+а ты занешь, что то расскажет
+ о репозитории - команда *git status*
+на какой ветке мы стоим, есть ли комиты, и про файлы есть или нет, отслеживается или нет.
